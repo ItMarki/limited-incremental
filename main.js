@@ -18,7 +18,7 @@ function reset() {
 			synMult:1,
 			mult:1,
 			amt:0,
-			costInc:Math.pow(10,0.5)
+			costInc:Math.pow(10,0.25)
 		},
 		gen2:{
 			cost:100,
@@ -45,7 +45,7 @@ function reset() {
 			synMult:1,
 			mult:1,
 			amt:0,
-			costInc:Math.pow(10,1.5)
+			costInc:Math.pow(10,0.75)
 		},
 		gen5:{
 			cost:1e11,
@@ -54,7 +54,7 @@ function reset() {
 			synMult:1,
 			mult:1,
 			amt:0,
-			costInc:100
+			costInc:10
 		},
 		gen6:{
 			cost:1e16,
@@ -63,7 +63,7 @@ function reset() {
 			synMult:1,
 			mult:1,
 			amt:0,
-			costInc:Math.pow(10,2.5)
+			costInc:Math.pow(10,1.25)
 		},
 	}
 	return game
